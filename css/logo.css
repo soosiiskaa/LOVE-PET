@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+
+
+body{
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #E4E3DF;
+}
+
+.catlogo
+{
+    margin-top: 350px;
+}
+
+.txt
+{
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.avtor
+{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+
+
