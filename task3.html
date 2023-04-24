@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div p{
+        /*Задание 1*/
+        background-color: aliceblue;
+    }
+
+    div h2{
+        /*Задание 2*/
+        background-color: antiquewhite;
+    }
+
+    #test p{
+        /*Задание 3*/
+        background-color: aquamarine;
+    }
+
+    #test h2{
+        /*Задание 4*/
+        background-color: bisque;
+    }
+
+    .bbb{
+        /*Задание 5*/
+        background-color: teal;
+    }
+
+    #test .bbb{
+        /*Задание 6*/
+        background-color: palevioletred;
+
+    }
+
+    p.bbb{
+        /*Задание 7*/
+        background-color: plum;
+    }
+
+    h2.bbb{
+        /*Задание 8*/
+        background-color: purple;
+    }
+
+    #test p.bbb{
+        /*Задание 9*/
+        background-color: gold;
+    }
+
+    div h2,p{
+        /*Задание 10*/
+        background-color: gray;
+    }
+
+    .bbb,.xxx{
+        /*Задание 11*/
+        color: chocolate;
+    }
+
+    p.bbb,h2.xxx{
+        /*Задание 12*/
+        color: aquamarine;
+    }
+
+    #test p.bbb,#test p.xxx{
+        /*Задание 13*/
+        font-style: italic;
+    }
+
+    .fff{
+        /*Задание 14*/
+        background-color: burlywood;
+    }
+
+    .fff p{
+        /*Задание 15*/
+        background-color: lightcoral;
+    }
+
+    p.fff{
+        /*Задание 16*/
+        background-color: lightgreen;
+    }
+
+    .fff.bbb{
+        /*Задание 17*/
+       color: lawngreen;
+    }
+
+    .fff h2.bbb{
+        /*Задание 18*/
+        text-decoration: overline;
+        background-color: white;
+    }
+
+    #test a:link, #test a:visited{
+        /*Задание 19*/
+        text-decoration: none;
+        color: red;
+    }
+
+    #test a:hover{
+        /*Задание 19*/
+        text-decoration: underline;
+        color: blue;
+        
+    }
+
+    a.www:link{
+        /*Задание 20*/
+        text-decoration: underline;
+        color: blue;
+    }
+
+    a.www:visited{
+        /*Задание 20*/
+        text-decoration: underline;
+        color: blue;
+    }
+
+    a.www:hover{
+        /*Задание 20*/
+        text-decoration: none;
+        color: blue;
+    }
+
+    #test a:link.www{
+        /*Задание 21*/
+        color: blueviolet;
+    
+    }
+
+    #test a:visited.www{
+        /*Задание 21*/
+        color: blueviolet;
+       
+    }
+
+    #test a:hover.www{
+        /*Задание 21*/
+        color: aquamarine;
+       
+    }
+
+    .eee a:link.www{
+        /*Задание 22*/
+        color: navy;
+    }
+
+    .eee a:visited.www{
+        /*Задание 22*/
+        color: navy;
+    }
+
+    .eee a:hover.www{
+        /*Задание 22*/
+        color: navajowhite;
+    }
+
+    p > i{
+        /*Задание 23*/
+        color: magenta;
+    }
+
+    ul > li{
+        /*Задание 24*/
+        color: orange;
+    }
+
+    p > a, .test{
+        /*Задание 25*/
+       color: darkblue;
+    }
+
+    b + i{
+        /*Задание 26*/
+        background: teal;
+    }
+
+    #test b + i{
+        /*Задание 27*/
+        color: white;
+    }
+
+    ul + p{
+        /*Задание 28*/
+        background-color: yellow;
+    }
+
+    h1 ~ p{
+        /*Задание 29*/
+        color: seagreen;
+    }
+
+    #test h2 ~ p{
+        /*Задание 30*/
+        text-decoration: overline;
+    }
+
+    p * i{
+        /*Задание 31*/
+        color: aqua;
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>Задание 1</p>
+        <h2>Задание 2</h2>
+    </div>
+
+    <div id="test">
+        <p>Задание 3</p>
+        <h2>Задание 4</h2>
+    </div>
+
+    <span class="bbb">Задание 5</span>
+
+    <div id="test">
+        <div class="bbb">Задание 6</div>
+    </div>
+
+    <p class="bbb">Задание 7</p>
+    <h2 class="bbb">Задание 8</h2>
+
+    <div id="test">
+        <p class="bbb">Задание 9</p>
+    </div>
+
+    <div>
+        <p>Задание 10</p>
+        <h2>Задание 10</h2>
+    </div>
+
+    <span class="bbb">Задание 11</span>
+    <span class="xxx">Заданее 11</span>
+
+    <p class="bbb">Задание 12</p>
+    <h2 class="xxx">Задание 12</h2>
+
+    <div id="test">
+        <p class="bbb">Задание 13</p>
+        <p class="xxx">Задание 13</p>
+    </div>
+
+    <span class="fff">Задание 14</span>
+
+    <div class="fff">
+        <p>Задание 15</p>
+    </div>
+
+    <p class="fff">Задание 16</p>
+
+    <span class="fff">
+        <p class="bbb">Задание 17</p>
+    </span>
+
+    <span class="fff">
+        <h2 class="bbb">Задание 18</h2>
+    </span>
+
+    <div id="test">
+        <a href="">Задание 19</a>
+    </div>
+
+    <div class="www">
+        <a href="">Задание 20</a>
+    </div>
+
+    <div id="test">
+        <a href="" class="www">Задание 21</a>
+    </div>
+
+    <div class="eee">
+        <a href="" class="www">Задание 22</a>
+    </div>
+
+    <p>
+        <i>Задание 23</i>
+    </p>
+
+    <ul>
+        <li>Задание 24</li>
+    </ul>
+
+    <p>
+        <a href="">Задание 25</a>
+    </p>
+
+    <a href="" class="test">Задание 25</a>
+
+    <b>Задание 26</b>
+    <i>Задание 26</i>
+
+    <div id="test">
+        <b>Задание 27</b>
+        <i>Задание 27</i>
+    </div>
+
+    <ul>Задание 28</ul>
+    <p>Задание 28</p>
+
+    <h1>Задание 29</h1>
+    <p>Задание 29</p>
+
+    <div id="test">
+        <h2>Задание 30</h2>
+        <p>Задание 30</p>
+    </div>
+
+    <p>
+        <span>
+            <i>Задание 31</i>
+        </span>
+    </p>
+
+
+</body>
+</html>
